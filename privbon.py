@@ -1,5 +1,5 @@
 """
-privbon_gumbel.py
+privbon.py
 Private Best-of-N via Gumbel-Max (Exponential Mechanism).
 
 Algorithm (PrivBoN):

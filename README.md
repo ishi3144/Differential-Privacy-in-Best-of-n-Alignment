@@ -5,9 +5,9 @@ This repository contains reference implementations of four inference-time alignm
 | Algorithm | File | Privacy | Reference |
 |---|---|---|---|
 | **BoN** — Best-of-N | `bon.py` | None | Stiennon et al., 2020 |
-| **PrivBoN-Gumbel** — Private Best-of-N via Exponential Mechanism | `privbon_gumbel.py` | (ε, 0)-DP | Algorithm 2 in our paper |
+| **PrivBoN-Gumbel** — Private Best-of-N via Exponential Mechanism | `privbon_gumbel.py` | (ε, 0)-DP | Algorithm 1 in our paper |
 | **ITP** — InferenceTimePessimism | `itp.py` | None | Huang et al., 2025 |
-| **PrivITP** — Private InferenceTimePessimism (two-phase) | `privitp.py` | (ε, δ)-DP | Algorithm 1 in our paper |
+| **PrivITP** — Private InferenceTimePessimism (two-phase) | `privitp.py` | (ε, δ)-DP | Algorithm 2 in our paper |
 
 All four algorithms work with any HuggingFace causal LM as the base policy and any HuggingFace sequence-classification model as the reward model.
 

@@ -17,13 +17,6 @@ All four algorithms work with any HuggingFace causal LM as the base policy and a
 
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Algorithm Details](#algorithm-details)
-- [Hyperparameter Guide](#hyperparameter-guide)
-- [Reproducing Paper Results](#reproducing-paper-results)
-- [API Usage (Importing as Modules)](#api-usage-importing-as-modules)
-- [Troubleshooting](#troubleshooting)
-- [Citation](#citation)
-
 ---
 
 ## Installation
@@ -47,3 +40,11 @@ source venv/bin/activate    # on Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
+```
+
+Optional: HuggingFace authentication
+Some reward models (e.g. Skywork/Skywork-Reward-Llama-3.1-8B) and base models (e.g. meta-llama/*) are gated. Authenticate via:
+```bash
+huggingface-cli login
+```
+
